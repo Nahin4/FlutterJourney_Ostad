@@ -1,5 +1,5 @@
 abstract class Vehicle{
-  var _speed; //Private
+  var _speed;
 
   move();
 

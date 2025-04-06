@@ -1,5 +1,5 @@
 abstract class Vehicle{
-  var _speed;
+  var _speed; //Private
 
   move();
 
@@ -15,11 +15,4 @@ class Car extends Vehicle{
   move(){
     print("The car is moving at $speed km/h");
   }
-}
-
-main(){
-  Car Allion = Car();
-  Allion.setSpeed(40);
-
-  Allion.move();
 }
